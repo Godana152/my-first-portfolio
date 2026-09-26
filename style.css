@@ -1,0 +1,199 @@
+/* Style for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #06040e;
+    color:aliceblue
+}
+
+/* style for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: rgb(1, 78, 146);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+}
+header nav a{
+    color: rgb(34, 119, 193);
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+    transform: scale(1.2);
+}
+
+/* style for the hero section */
+#hero {
+    background-image: url('images/hero image 2.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 24px;
+}
+
+/* style the about section */
+#about h2 {
+    color: #367948;
+    font-family: "caveat", cursive;
+    text-align: center;
+    margin-top: 40px;
+
+}
+#about  {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+    margin: 40px;
+    color: rgb(4, 62, 58);
+
+
+}
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgb(1, 78, 146);
+}
+
+/* style the projects section */
+#projects h2 {
+    color: #367948;
+    font-family: "caveat", cursive;
+    text-align: center;
+    margin-top: 40px;
+
+}
+.project-cards {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.project-cards .card {
+    background-color:beige;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+
+} 
+
+.project-cards .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* style the skills section */
+#skills .skills-cards {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+#skills .skills-cards .card-1 {
+     background-color: rgb(53, 53, 175);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 164, 126);
+    margin-top: 0px;
+
+}
+
+#skills h2{
+    color: #367948;
+    font-family: "caveat", cursive;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+/* style the services section */
+#services h2{
+    color: #367948;
+    font-family: "caveat", cursive;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+#services .services-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+#services .services-cards .card-2 {
+    background-color: rgb(64, 64, 205);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(30, 164, 126);
+    margin-top: 0px;
+    width: 400px;
+
+}
+
+/* style the contact section */
+#contact p{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+#contact p a{
+    color: #0cc63e;
+    text-decoration: none;
+}
+
+#contact p a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+    transform: scale(1.2);
+}
+
+#contact h2{
+    color: #367948;
+    font-family: "caveat", cursive;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
